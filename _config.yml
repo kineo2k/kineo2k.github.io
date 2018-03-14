@@ -14,15 +14,15 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
+#- title: About
+   #url: /about
+#- title: Contact
+   #url: /contact
 
 social:
-    #github: kineo2k 
-    #twitter: kineo2k 
-    #facebook: kineo2k
+   #github: kineo2k 
+   #twitter: kineo2k 
+   #facebook: kineo2k
    email: kineo2k@gmail.com
 
 google_analytics: "UA-115758295-1"
