@@ -8,7 +8,7 @@ permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 paginate: 5
 
 navigation:
@@ -24,5 +24,15 @@ social:
    #twitter: kineo2k 
    #facebook: kineo2k
    email: kineo2k@gmail.com
+
+exclude:
+ - README.md
+ - LICENSE
+ - package.json
+ - package-lock.json
+ - gulpfile.js 
+ - Gemfile
+ - Gemfile.lock
+ - jekyll_serve.sh
 
 google_analytics: "UA-115758295-1"
